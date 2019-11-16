@@ -97,6 +97,10 @@
     <!-- Title for Settings activity -->
     <string name="settings_header">Settings</string>
 
+
+    <!-- For Weather Provider -->
+    <string name="content_authority">com.example.android.sunshine</string>
+
     <!-- Weather Conditions (From OpenWeatherMap) -->
     <string name="condition_2xx">Storm</string>
     <string name="condition_3xx">Drizzle</string>
