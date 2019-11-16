@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- For Entering Location -->
+    <EditTextPreference
+        android:defaultValue="@string/location_default"
+        android:inputType="text"
+        android:key="@string/location_key"
+        android:singleLine="true"
+        android:title="@string/location_title" />
+
+    <!-- For Setting Unis=t of temperature -->
+    <ListPreference
+        android:defaultValue="@string/pref_unit_metric"
+        android:entries="@array/pref_units_options"
+        android:entryValues="@array/pref_units_values"
+        android:key="@string/temp_units_key"
+        android:title="@string/temp_units" />
+
+</PreferenceScreen>
