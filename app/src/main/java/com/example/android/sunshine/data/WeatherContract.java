@@ -5,6 +5,7 @@ import android.provider.BaseColumns;
 public class WeatherContract {
 
     public final static String CONTENT_AUTHORITY = "com.example.android.sunshine";
+    public final static String PATH_WEATHER = "weather";
 
     //Class WeatherEntry that implements Base Columns
     /* Inner class that defines the table contents of the weather table */
